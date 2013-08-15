@@ -8311,7 +8311,7 @@ CAP-00810</description>
 <text x="5.08" y="43.18" size="2.54" layer="91" rot="R90">DIG 1</text>
 <text x="5.08" y="17.78" size="2.54" layer="91" rot="R90">DIG 2</text>
 <text x="170.942" y="7.62" size="3.81" layer="94">M. Hord</text>
-<text x="239.014" y="6.604" size="3.81" layer="94">01</text>
+<text x="239.014" y="6.604" size="3.81" layer="94">02</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
