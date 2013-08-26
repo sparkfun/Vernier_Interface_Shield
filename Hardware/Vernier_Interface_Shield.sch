@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -9918,7 +9918,7 @@ CAP-00810</description>
 <label x="172.72" y="146.05" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="AS1_VRES" class="0">
+<net name="N$24" class="0">
 <segment>
 <wire x1="17.78" y1="93.98" x2="20.32" y2="93.98" width="0.1524" layer="91"/>
 <label x="20.32" y="93.98" size="1.27" layer="95" xref="yes"/>
