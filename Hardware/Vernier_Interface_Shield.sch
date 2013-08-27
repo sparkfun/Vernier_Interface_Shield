@@ -9528,10 +9528,10 @@ CAP-00810</description>
 <instance part="C2" gate="G$1" x="147.32" y="50.8"/>
 <instance part="SUPPLY6" gate="G$1" x="134.62" y="60.96"/>
 <instance part="GND6" gate="1" x="134.62" y="40.64"/>
-<instance part="R20" gate="G$1" x="137.16" y="162.56" rot="R90"/>
-<instance part="SUPPLY7" gate="G$1" x="137.16" y="172.72"/>
-<instance part="S2" gate="S" x="137.16" y="147.32" rot="R90"/>
-<instance part="GND7" gate="1" x="137.16" y="134.62"/>
+<instance part="R20" gate="G$1" x="139.7" y="162.56" rot="R90"/>
+<instance part="SUPPLY7" gate="G$1" x="139.7" y="172.72"/>
+<instance part="S2" gate="S" x="139.7" y="147.32" rot="R90"/>
+<instance part="GND7" gate="1" x="139.7" y="134.62"/>
 <instance part="JP7" gate="G$1" x="12.7" y="43.18"/>
 <instance part="JP5" gate="G$1" x="12.7" y="93.98"/>
 <instance part="JP6" gate="G$1" x="12.7" y="68.58"/>
@@ -9651,7 +9651,7 @@ CAP-00810</description>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
 <pinref part="S2" gate="S" pin="1"/>
-<wire x1="137.16" y1="137.16" x2="137.16" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="137.16" x2="139.7" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP9" gate="G$1" pin="2"/>
@@ -9754,7 +9754,7 @@ CAP-00810</description>
 <segment>
 <pinref part="R20" gate="G$1" pin="2"/>
 <pinref part="SUPPLY7" gate="G$1" pin="5V"/>
-<wire x1="137.16" y1="167.64" x2="137.16" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="167.64" x2="139.7" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP9" gate="G$1" pin="1"/>
@@ -9779,11 +9779,11 @@ CAP-00810</description>
 <segment>
 <pinref part="S2" gate="S" pin="3"/>
 <pinref part="R20" gate="G$1" pin="1"/>
-<wire x1="137.16" y1="152.4" x2="137.16" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="154.94" x2="137.16" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="154.94" x2="137.16" y2="154.94" width="0.1524" layer="91"/>
-<junction x="137.16" y="154.94"/>
-<label x="123.54" y="154.88" size="1.778" layer="95"/>
+<wire x1="139.7" y1="152.4" x2="139.7" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="154.94" x2="139.7" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="154.94" x2="139.7" y2="154.94" width="0.1524" layer="91"/>
+<junction x="139.7" y="154.94"/>
+<label x="126.08" y="154.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A4" class="0">
