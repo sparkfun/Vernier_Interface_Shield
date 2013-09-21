@@ -9479,7 +9479,7 @@ CAP-00810</description>
 <text x="5.08" y="43.18" size="2.54" layer="91" rot="R90">DIG 1</text>
 <text x="5.08" y="17.78" size="2.54" layer="91" rot="R90">DIG 2</text>
 <text x="170.942" y="7.62" size="3.81" layer="94">M. Hord</text>
-<text x="239.014" y="6.604" size="3.81" layer="94">02</text>
+<text x="239.014" y="6.604" size="3.81" layer="94">03</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -9964,23 +9964,6 @@ CAP-00810</description>
 <label x="172.72" y="146.05" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$24" class="0">
-<segment>
-<wire x1="17.78" y1="93.98" x2="20.32" y2="93.98" width="0.1524" layer="91"/>
-<label x="20.32" y="93.98" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP5" gate="G$1" pin="3"/>
-</segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="Y0"/>
-<wire x1="71.12" y1="88.9" x2="68.58" y2="88.9" width="0.1524" layer="91"/>
-<label x="68.58" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="78.74" y1="50.8" x2="81.28" y2="50.8" width="0.1524" layer="91"/>
-<label x="81.28" y="50.8" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="AS1_AUTOID" class="0">
 <segment>
 <wire x1="17.78" y1="96.52" x2="20.32" y2="96.52" width="0.1524" layer="91"/>
@@ -10126,9 +10109,9 @@ CAP-00810</description>
 <pinref part="JP8" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="JP2" gate="G$1" pin="4"/>
-<wire x1="66.04" y1="129.54" x2="63.5" y2="129.54" width="0.1524" layer="91"/>
-<label x="63.5" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="JP2" gate="G$1" pin="5"/>
+<wire x1="66.04" y1="132.08" x2="63.5" y2="132.08" width="0.1524" layer="91"/>
+<label x="63.5" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D1_IO4" class="0">
@@ -10177,9 +10160,9 @@ CAP-00810</description>
 <label x="68.58" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP2" gate="G$1" pin="5"/>
-<wire x1="66.04" y1="132.08" x2="63.5" y2="132.08" width="0.1524" layer="91"/>
-<label x="63.5" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="JP2" gate="G$1" pin="4"/>
+<wire x1="66.04" y1="129.54" x2="63.5" y2="129.54" width="0.1524" layer="91"/>
+<label x="63.5" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D1_IO1" class="0">
@@ -10275,6 +10258,23 @@ CAP-00810</description>
 <pinref part="JP4" gate="G$1" pin="3"/>
 <wire x1="25.4" y1="127" x2="27.94" y2="127" width="0.1524" layer="91"/>
 <label x="27.94" y="127" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="AS1_VRES" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="Y0"/>
+<wire x1="71.12" y1="88.9" x2="68.58" y2="88.9" width="0.1524" layer="91"/>
+<label x="68.58" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="17.78" y1="93.98" x2="20.32" y2="93.98" width="0.1524" layer="91"/>
+<label x="20.32" y="93.98" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP5" gate="G$1" pin="3"/>
+</segment>
+<segment>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="78.74" y1="50.8" x2="81.28" y2="50.8" width="0.1524" layer="91"/>
+<label x="81.28" y="50.8" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
