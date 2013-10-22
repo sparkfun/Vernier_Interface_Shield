@@ -9479,7 +9479,45 @@ CAP-00810</description>
 <text x="5.08" y="43.18" size="2.54" layer="91" rot="R90">DIG 1</text>
 <text x="5.08" y="17.78" size="2.54" layer="91" rot="R90">DIG 2</text>
 <text x="170.942" y="7.62" size="3.81" layer="94">M. Hord</text>
-<text x="239.014" y="6.604" size="3.81" layer="94">03</text>
+<text x="239.014" y="6.604" size="3.81" layer="94">04</text>
+<text x="254" y="160.02" size="1.778" layer="91">British Telecom Analog (BTA) -  Right Hand
+---------------------------------------
+Pin 1 = Sensor output (+/-10V)
+Pin 2 = GND
+Pin 3 = Vres (resistance reference)
+Pin 4 = AutoIDENT (not supported on all sensors)
+Pin 5 = Power (+5VDC)
+Pin 6 = Sensor output (0-5V)</text>
+<text x="254" y="154.94" size="1.778" layer="91"></text>
+<text x="254" y="129.54" size="1.778" layer="91">British Telecom Digital (BTD) - Left Hand
+-------------------------------------
+POS.    DEFAULT   MOTION DETECTOR    PHOTOGATE    RAD MONITOR    ROTARY MOTION
+  1      I\\O1          Echo           Input         Countinput     CCWcount 
+  2      I\\O2          Init                                        CWcount 
+  3      I\\O3          AutoID            
+  4      PWR (5V)     PWR (5V)        PWR (5V)       PWR (5V)        PWR (5V)
+  5      GND           GND             GND           GND            GND
+  6      I\\O4                                                      X4res</text>
+<text x="254" y="73.66" size="1.778" layer="91">Falstad circuit Simulation Code
+$ 1 5.0E-6 10.634267539816555 50 5.0 50
+a 368 208 496 208 0 15.0 -15.0 1000000.0
+172 176 224 128 224 0 6 5.0 10.0 -10.0 0.0 0.5 Voltage In
+O 496 208 544 208 1
+r 368 144 496 144 0 10000.0
+w 496 144 496 208 0
+w 368 144 368 192 0
+w 368 192 336 192 0
+w 336 192 336 256 0
+r 336 256 336 336 0 40000.0
+r 272 224 272 336 0 10000.0
+w 368 224 272 224 0
+w 272 336 304 336 0
+w 304 336 336 336 0
+g 304 336 304 352 0
+r 176 224 240 224 0 20000.0
+r 240 224 240 128 0 10000.0
+w 272 224 240 224 0
+R 240 128 240 80 0 0 40.0 5.0 0.0 0.0 0.5</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -10282,4 +10320,10 @@ CAP-00810</description>
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
