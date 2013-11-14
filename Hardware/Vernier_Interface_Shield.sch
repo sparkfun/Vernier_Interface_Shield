@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9479,7 +9479,7 @@ CAP-00810</description>
 <text x="5.08" y="43.18" size="2.54" layer="91" rot="R90">DIG 1</text>
 <text x="5.08" y="17.78" size="2.54" layer="91" rot="R90">DIG 2</text>
 <text x="170.942" y="7.62" size="3.81" layer="94">M. Hord</text>
-<text x="239.014" y="6.604" size="3.81" layer="94">04</text>
+<text x="239.014" y="6.604" size="3.81" layer="94">10</text>
 <text x="254" y="160.02" size="1.778" layer="91">British Telecom Analog (BTA) -  Right Hand
 ---------------------------------------
 Pin 1 = Sensor output (+/-10V)
