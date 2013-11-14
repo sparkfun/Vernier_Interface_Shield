@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -735,6 +735,18 @@ MSB -&gt; D11</text>
 <wire x1="159.258" y1="163.83" x2="159.258" y2="29.21" width="0.2032" layer="20"/>
 <wire x1="165.608" y1="163.83" x2="159.258" y2="163.83" width="0.2032" layer="20"/>
 <wire x1="165.608" y1="163.83" x2="165.608" y2="78.74" width="0.2032" layer="20"/>
+<text x="12.7" y="146.05" size="2.1844" layer="20" font="vector" ratio="7" rot="R90">Route Out</text>
+<text x="12.7" y="116.84" size="2.1844" layer="20" font="vector" ratio="7" rot="R90">Route Out</text>
+<text x="74.93" y="152.4" size="2.1844" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="74.93" y="115.57" size="2.1844" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="74.93" y="73.66" size="2.1844" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="74.93" y="45.72" size="2.1844" layer="20" font="vector" ratio="7">Route Out</text>
+<text x="12.7" y="64.77" size="2.1844" layer="20" font="vector" ratio="7" rot="R90">Route Out</text>
+<text x="12.7" y="35.56" size="2.1844" layer="20" font="vector" ratio="7" rot="R90">Route Out</text>
+<text x="154.94" y="33.02" size="2.1844" layer="20" font="vector" ratio="7" rot="R90">Route Out</text>
+<text x="154.94" y="62.23" size="2.1844" layer="20" font="vector" ratio="7" rot="R90">Route Out</text>
+<text x="154.94" y="110.49" size="2.1844" layer="20" font="vector" ratio="7" rot="R90">Route Out</text>
+<text x="154.94" y="142.24" size="2.1844" layer="20" font="vector" ratio="7" rot="R90">Route Out</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
