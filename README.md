@@ -4,9 +4,7 @@ Vernier Interface Shield
 [![Vernier Interface Shield](https://dlnmh9ip6v2uc.cloudfront.net/images/products/1/1/8/9/7/11897-01.jpg)
 *Vernier Interface Shield (DEV-11897)*](https://www.sparkfun.com/products/11897)
 
-
-Design files and firmware files for the Vernier Interface Shield. 
-Shield stacks onto the Arduino UNO and UNO equivalent. 
+This shield enables Arduino Uno footprint compatible boards to be connected to Vernier sensors. 
 
 
 Repository Contents
