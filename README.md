@@ -1,5 +1,9 @@
-Vernier_Interface_Shield
+Vernier Interface Shield
 ========================
+
+[![Vernier Interface Shield](https://dlnmh9ip6v2uc.cloudfront.net/images/products/1/1/8/9/7/11897-01.jpg)
+*Vernier Interface Shield (DEV-11897)*](https://www.sparkfun.com/products/11897)
+
 
 Design files and firmware files for the Vernier Interface Shield. 
 Shield stacks onto the Arduino UNO and UNO equivalent. 
@@ -8,14 +12,12 @@ Shield stacks onto the Arduino UNO and UNO equivalent.
 Repository Contents
 -------------------
 
-* **/hardware** - Eagle PCB layout files
-* **/Arduino/analogRead** - code to test the analog ports of the Vernier Shield
+* **/Hardware** - Eagle PCB layout files
+* **/Libraries** - Arduino library for using the Vernier Shield
 * **/Production Files** - Files to support SparkFun production
 
 
 License Information
 -------------------
-
-All contents of this repository are released under [Creative Commons Share-alike 3.0](http://creativecommons.org/licenses/by-sa/3.0/).
-
-Authors: @ SparkFun Electonics 
+The hardware is released under [Creative Commons Share-alike 3.0](http://creativecommons.org/licenses/by-sa/3.0/).  
+All other code is open source so please feel free to do anything you want with it; you buy me a beer if you use this and we meet someday ([Beerware license](http://en.wikipedia.org/wiki/Beerware)).
