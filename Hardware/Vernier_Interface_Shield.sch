@@ -10011,6 +10011,11 @@ r 176 224 240 224 0 20000.0
 r 240 224 240 128 0 10000.0
 w 272 224 240 224 0
 R 240 128 240 80 0 0 40.0 5.0 0.0 0.0 0.5</text>
+<text x="254" y="66.04" size="1.778" layer="97">Changes on v1.2:</text>
+<text x="256.54" y="63.5" size="1.778" layer="97">Corrected FP on BTA/BTD connectors</text>
+<text x="256.54" y="60.96" size="1.778" layer="97">Migrated labels from start at IO1 to IO0</text>
+<text x="256.54" y="58.42" size="1.778" layer="97">Tented two vias</text>
+<text x="256.54" y="55.88" size="1.778" layer="97">Small rerouting</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -10571,7 +10576,7 @@ R 240 128 240 80 0 0 40.0 5.0 0.0 0.0 0.5</text>
 <label x="177.8" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="D2_IO4" class="0">
+<net name="D2_IO3" class="0">
 <segment>
 <wire x1="25.4" y1="25.4" x2="27.94" y2="25.4" width="0.1524" layer="91"/>
 <label x="27.94" y="25.4" size="1.27" layer="95" xref="yes"/>
@@ -10583,7 +10588,7 @@ R 240 128 240 80 0 0 40.0 5.0 0.0 0.0 0.5</text>
 <label x="63.5" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="D2_IO3" class="0">
+<net name="D2_IO2" class="0">
 <segment>
 <wire x1="25.4" y1="17.78" x2="27.94" y2="17.78" width="0.1524" layer="91"/>
 <label x="27.94" y="17.78" size="1.27" layer="95" xref="yes"/>
@@ -10605,7 +10610,7 @@ R 240 128 240 80 0 0 40.0 5.0 0.0 0.0 0.5</text>
 <label x="63.5" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="D2_IO2" class="0">
+<net name="D2_IO1" class="0">
 <segment>
 <wire x1="25.4" y1="15.24" x2="27.94" y2="15.24" width="0.1524" layer="91"/>
 <label x="27.94" y="15.24" size="1.27" layer="95" xref="yes"/>
@@ -10622,7 +10627,7 @@ R 240 128 240 80 0 0 40.0 5.0 0.0 0.0 0.5</text>
 <label x="63.5" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="D2_IO1" class="0">
+<net name="D2_IO0" class="0">
 <segment>
 <wire x1="25.4" y1="12.7" x2="27.94" y2="12.7" width="0.1524" layer="91"/>
 <label x="27.94" y="12.7" size="1.27" layer="95" xref="yes"/>
@@ -10634,7 +10639,7 @@ R 240 128 240 80 0 0 40.0 5.0 0.0 0.0 0.5</text>
 <label x="63.5" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="D1_IO4" class="0">
+<net name="D1_IO3" class="0">
 <segment>
 <wire x1="25.4" y1="50.8" x2="27.94" y2="50.8" width="0.1524" layer="91"/>
 <label x="27.94" y="50.8" size="1.27" layer="95" xref="yes"/>
@@ -10646,7 +10651,7 @@ R 240 128 240 80 0 0 40.0 5.0 0.0 0.0 0.5</text>
 <label x="63.5" y="134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="D1_IO3" class="0">
+<net name="D1_IO2" class="0">
 <segment>
 <wire x1="25.4" y1="43.18" x2="27.94" y2="43.18" width="0.1524" layer="91"/>
 <label x="27.94" y="43.18" size="1.27" layer="95" xref="yes"/>
@@ -10668,7 +10673,7 @@ R 240 128 240 80 0 0 40.0 5.0 0.0 0.0 0.5</text>
 <label x="63.5" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="D1_IO2" class="0">
+<net name="D1_IO1" class="0">
 <segment>
 <wire x1="25.4" y1="40.64" x2="27.94" y2="40.64" width="0.1524" layer="91"/>
 <label x="27.94" y="40.64" size="1.27" layer="95" xref="yes"/>
@@ -10685,7 +10690,7 @@ R 240 128 240 80 0 0 40.0 5.0 0.0 0.0 0.5</text>
 <label x="63.5" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="D1_IO1" class="0">
+<net name="D1_IO0" class="0">
 <segment>
 <wire x1="27.94" y1="38.1" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
 <label x="27.94" y="38.1" size="1.27" layer="95" xref="yes"/>
