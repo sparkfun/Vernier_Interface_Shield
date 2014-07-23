@@ -236,8 +236,8 @@ MSB -&gt; D11</text>
 <text x="16.891" y="29.845" size="1.27" layer="21" font="vector" ratio="15" rot="SR0" align="center-right">A1</text>
 <text x="16.891" y="27.305" size="1.27" layer="21" font="vector" ratio="15" rot="SR0" align="center-right">A2</text>
 <text x="16.891" y="24.765" size="1.27" layer="21" font="vector" ratio="15" rot="SR0" align="center-right">A3</text>
-<text x="16.256" y="22.225" size="1.27" layer="21" font="vector" ratio="15" rot="SR0" align="center-right">A4</text>
-<text x="16.256" y="19.685" size="1.27" layer="21" font="vector" ratio="15" rot="SR0" align="center-right">A5</text>
+<text x="16.891" y="22.225" size="1.27" layer="21" font="vector" ratio="15" rot="SR0" align="center-right">A4</text>
+<text x="16.891" y="19.685" size="1.27" layer="21" font="vector" ratio="15" rot="SR0" align="center-right">A5</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
