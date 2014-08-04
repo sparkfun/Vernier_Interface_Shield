@@ -6,9 +6,10 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -18,25 +19,25 @@
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -181,7 +182,7 @@ IO2 -&gt; D8/A5
 IO3 -&gt; D9</text>
 <text x="59.055" y="49.53" size="1.905" layer="21" font="vector" ratio="15" rot="R270">Vernier Sensor
 Interface Shield</text>
-<text x="35.56" y="-10.16" size="2.54" layer="25" font="vector" ratio="15">M. Hord</text>
+<text x="45.72" y="-12.7" size="1.778" layer="51" font="vector" ratio="15">M. Hord</text>
 <text x="30.988" y="18.161" size="1.4224" layer="21" font="vector" ratio="15">MUX ADDR PINS
 LSB -&gt; D10
 MSB -&gt; D11</text>
@@ -238,6 +239,7 @@ MSB -&gt; D11</text>
 <text x="16.891" y="24.765" size="1.27" layer="21" font="vector" ratio="15" rot="SR0" align="center-right">A3</text>
 <text x="16.891" y="22.225" size="1.27" layer="21" font="vector" ratio="15" rot="SR0" align="center-right">A4</text>
 <text x="16.891" y="19.685" size="1.27" layer="21" font="vector" ratio="15" rot="SR0" align="center-right">A5</text>
+<text x="45.72" y="-15.24" size="1.778" layer="51" font="vector" ratio="15">Brian Huang</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -661,6 +663,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 </package>
 <package name="MICRO-FIDUCIAL">
 <smd name="1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="REVISION">
+<text x="0" y="0" size="1.778" layer="51">Revision By: </text>
 </package>
 </packages>
 </library>
@@ -1354,7 +1359,7 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="IC-09813" x="36.195" y="43.18" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" value="74HC4052" x="36.195" y="43.18" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="4.16854375" y="-10.16"/>
+<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="18.13854375" y="-12.7"/>
 <element name="R1" library="SparkFun-Resistors" package="0603-RES" value="10K" x="24.765" y="57.785" rot="MR90">
 <attribute name="PROD_ID" value="RES-00824" x="24.765" y="57.785" size="1.778" layer="28" font="vector" ratio="15" rot="MR90" display="off"/>
 </element>
@@ -1437,6 +1442,7 @@ design rules under a new name.</description>
 <element name="S3" library="SparkFun-Electromechanical" package="TACTILE-PTH" value="Reset" x="16.51" y="67.31" rot="R180"/>
 <element name="S4" library="SparkFun-Electromechanical" package="TACTILE-PTH" value="D12" x="45.72" y="67.31" rot="R180"/>
 <element name="JP12" library="SparkFun-Connectors" package="1X06" value="Male" x="18.542" y="19.685" rot="R90"/>
+<element name="U$1" library="SparkFun-Aesthetics" package="REVISION" value="REVISION" x="29.21" y="-15.24"/>
 </elements>
 <signals>
 <signal name="VIN">

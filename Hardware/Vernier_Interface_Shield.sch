@@ -1515,6 +1515,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <package name="MICRO-FIDUCIAL">
 <smd name="1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no"/>
 </package>
+<package name="REVISION">
+<text x="0" y="0" size="1.778" layer="51">Revision By: </text>
+</package>
 </packages>
 <symbols>
 <symbol name="LETTER_L">
@@ -5132,6 +5135,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
 <circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
 </symbol>
+<symbol name="REVISION">
+<text x="0" y="0" size="2.54" layer="94">Revision By: </text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FRAME-LETTER" prefix="FRAME">
@@ -5259,6 +5265,18 @@ Various fiducial points for machine vision alignment.</description>
 </technologies>
 </device>
 <device name="UFIDUCIAL" package="MICRO-FIDUCIAL">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="REVISION">
+<gates>
+<gate name="G$1" symbol="REVISION" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="REVISION">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -9933,6 +9951,7 @@ Standard decoupling cap</description>
 <part name="S3" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="PTH" value="Reset"/>
 <part name="S4" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="PTH" value="D12"/>
 <part name="JP12" library="SparkFun-Connectors" deviceset="M06" device="SIP" value="Male"/>
+<part name="U$1" library="SparkFun-Aesthetics" deviceset="REVISION" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9972,7 +9991,7 @@ Standard decoupling cap</description>
 <text x="12.7" y="66.04" size="2.54" layer="91" rot="R90">ANA 2</text>
 <text x="12.7" y="43.18" size="2.54" layer="91" rot="R90">DIG 1</text>
 <text x="12.7" y="17.78" size="2.54" layer="91" rot="R90">DIG 2</text>
-<text x="170.942" y="7.62" size="3.81" layer="94">M. Hord</text>
+<text x="165.354" y="11.684" size="2.54" layer="94">M. Hord</text>
 <text x="239.014" y="6.604" size="3.81" layer="94">12</text>
 <text x="254" y="160.02" size="1.778" layer="91">British Telecom Analog (BTA) -  Right Hand
 ---------------------------------------
@@ -10017,6 +10036,7 @@ R 240 128 240 80 0 0 40.0 5.0 0.0 0.0 0.5</text>
 <text x="256.54" y="60.96" size="1.778" layer="97">Migrated labels from start at IO1 to IO0</text>
 <text x="256.54" y="58.42" size="1.778" layer="97">Tented two vias</text>
 <text x="256.54" y="55.88" size="1.778" layer="97">Small rerouting</text>
+<text x="168.91" y="7.366" size="2.54" layer="94">Brian Huang</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -10082,6 +10102,7 @@ R 240 128 240 80 0 0 40.0 5.0 0.0 0.0 0.5</text>
 <instance part="S3" gate="G$1" x="139.7" y="147.32" rot="R90"/>
 <instance part="S4" gate="G$1" x="139.7" y="96.52"/>
 <instance part="JP12" gate="G$1" x="116.84" y="71.12"/>
+<instance part="U$1" gate="G$1" x="148.59" y="7.366"/>
 </instances>
 <busses>
 </busses>
