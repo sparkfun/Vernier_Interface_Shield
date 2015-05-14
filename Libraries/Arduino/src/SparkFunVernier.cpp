@@ -1,4 +1,23 @@
-#include "Vernier.h"
+
+/******************************************************************************
+SparkFunVernier.cpp
+Brian@ SparkFun Electronics
+10/2013
+https://github.com/sparkfun/SparkFun_Vernier_Interface_Shield_Arduino_Library
+
+Basic functionality of the Vernier sensors. 
+
+Development environment specifics:
+Developed in Arduino 1.0+
+Updated for Arduino 1.6.4 5/2015
+
+This code is beerware; if you see me (or any other SparkFun employee) at the
+local, and you've found our code helpful, please buy us a round!
+
+Distributed as-is; no warranty is given.
+******************************************************************************/
+
+#include "SparkFunVernier.h"
 #include <Arduino.h>
 
 /*
